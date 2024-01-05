@@ -1,0 +1,135 @@
+[
+	{
+		"Name": "ItemsBaseNode",
+		"Guid":
+		{
+			"A": -1926370225,
+			"B": 1084249182,
+			"C": -2054348665,
+			"D": -863673922
+		},
+		"$LABELS$": [
+			"Items"
+		],
+		"$RELATION$": "",
+		"$ROOTGUID$":
+		{
+			"A": 0,
+			"B": 0,
+			"C": 0,
+			"D": 0
+		},
+		"Properties":
+		{
+			"Type": "Node",
+			"Info": "Base node for all item classes"
+		}
+	},
+	{
+		"Name": "WeaponsBaseNode",
+		"Guid":
+		{
+			"A": 996881383,
+			"B": 1294428890,
+			"C": -783145793,
+			"D": 1033796040
+		},
+		"$LABELS$": [
+			"Item",
+			"Weapons"
+		],
+		"$RELATION$": "IS_WEAPON",
+		"$ROOTGUID$":
+		{
+			"A": -1926370225,
+			"B": 1084249182,
+			"C": -2054348665,
+			"D": -863673922
+		},
+		"Properties":
+		{
+			"Type": "Node",
+			"Info": "Base node for all weapon base classes"
+		}
+	},
+	{
+		"Name": "ElementsBaseNode",
+		"Guid":
+		{
+			"A": -1017585774,
+			"B": 1238667765,
+			"C": -1185379447,
+			"D": -1129866484
+		},
+		"$LABELS$": [
+			"Item",
+			"Elements"
+		],
+		"$RELATION$": "IS_ELEMENT",
+		"$ROOTGUID$":
+		{
+			"A": -1926370225,
+			"B": 1084249182,
+			"C": -2054348665,
+			"D": -863673922
+		},
+		"Properties":
+		{
+			"Type": "Node",
+			"Info": "Base node for all elements base classes"
+		}
+	},
+	{
+		"Name": "CurrencyBaseNode",
+		"Guid":
+		{
+			"A": 429460302,
+			"B": 1082847341,
+			"C": 1997660091,
+			"D": -1950820786
+		},
+		"$LABELS$": [
+			"Item",
+			"Currencies"
+		],
+		"$RELATION$": "IS_CURRENCY",
+		"$ROOTGUID$":
+		{
+			"A": -1926370225,
+			"B": 1084249182,
+			"C": -2054348665,
+			"D": -863673922
+		},
+		"Properties":
+		{
+			"Type": "Node",
+			"Info": "Base node for all currency base classes"
+		}
+	},
+	{
+		"Name": "InventoriesBaseNode",
+		"Guid":
+		{
+			"A": -641388009,
+			"B": 1280822806,
+			"C": -180659788,
+			"D": 391316087
+		},
+		"$LABELS$": [
+			"Inventories"
+		],
+		"$RELATION$": "",
+		"$ROOTGUID$":
+		{
+			"A": 0,
+			"B": 0,
+			"C": 0,
+			"D": 0
+		},
+		"Properties":
+		{
+			"Type": "Node",
+			"Info": "Base node for all inventory base classes"
+		}
+	}
+]

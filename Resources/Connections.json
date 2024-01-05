@@ -1,0 +1,20 @@
+[
+	{
+		"Name": "NoAuth",
+		"URL": "http://localhost:7474/db/neo4j/tx/commit",
+		"Base64EncodedCredentials": "",
+		"ActiveConnection": false
+	},
+	{
+		"Name": "Neo4J_Default",
+		"URL": "http://localhost:7474/db/neo4j/tx/commit",
+		"Base64EncodedCredentials": "bmVvNGo6bmVvNGo=",
+		"ActiveConnection": false
+	},
+	{
+		"Name": "Bitnami_Default",
+		"URL": "http://localhost:7474/db/neo4j/tx/commit",
+		"Base64EncodedCredentials": "bmVvNGo6Yml0bmFtaTE=",
+		"ActiveConnection": true
+	}
+]

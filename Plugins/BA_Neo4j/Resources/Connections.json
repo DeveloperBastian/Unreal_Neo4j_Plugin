@@ -1,0 +1,23 @@
+[
+	{
+		"Name": "NoAuth",
+		"URL": "http://localhost:7474/db/neo4j/tx/commit",
+		"Username": "",
+		"Password": "",
+		"ActiveConnection": false
+	},
+	{
+		"Name": "Neo4J_Default",
+		"URL": "http://localhost:7474/db/neo4j/tx/commit",
+		"Username": "neo4j",
+		"Password": "neo4j",
+		"ActiveConnection": false
+	},
+	{
+		"Name": "Bitnami_Default",
+		"URL": "http://localhost:7474/db/neo4j/tx/commit",
+		"Username": "neo4j",
+		"Password": "bitnami1",
+		"ActiveConnection": true
+	}
+]

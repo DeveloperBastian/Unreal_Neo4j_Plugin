@@ -1,0 +1,31 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "BA_Neo4j",
+	"Description": "Collection of Blueprints and C++ classes to allow easy access to a Neo4j graph database",
+	"Category": "DataBase",
+	"CreatedBy": "Developer Bastian",
+	"CreatedByURL": "https://www.youtube.com/@bastiandev",
+	"DocsURL": "https://docs.google.com/presentation/d/1w0KJltWo7U_tFZvoahYyqN6QoUCx9oEptdVMtumz03Y/",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/___TBD___",
+	"SupportURL": "https://discord.gg/5wJ6EGHBEq",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "BA_Neo4j",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [ "Win64" ]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "JsonBlueprintUtilities",
+			"Enabled": true
+		}
+	]
+}
